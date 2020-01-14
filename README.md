@@ -30,15 +30,11 @@ There is also an unofficial [tutorial](https://fman.io/blog/google-omaha-tutoria
 經測試，通常不同電腦、不同位元去建置Omaha Client所遇上的問題不盡相同，故先將所有具參考價值的網站列出:
 <br>
 1. [Google Omaha GitHub](https://github.com/google/omaha)
-<br>
+
 2. Brave 開源瀏覽器
-<br>
-  [Brave Omaha GitHub](https://github.com/brave/omaha)
-<br>
-  [How Brave update works](https://docs.google.com/presentation/d/1rtFJVbyJ3qIUq1V8Q1Hp_ZIokWt_0GgVH8djEdDnD9w/edit#slide=id.p)
-<br>
-  [Integrate brave branded omaha #179](https://github.com/brave/brave-browser/issues/179)
-<br>
+<br>[Brave Omaha GitHub](https://github.com/brave/omaha)
+<br>[How Brave update works](https://docs.google.com/presentation/d/1rtFJVbyJ3qIUq1V8Q1Hp_ZIokWt_0GgVH8djEdDnD9w/edit#slide=id.p)
+<br>[Integrate brave branded omaha #179](https://github.com/brave/brave-browser/issues/179)
 3. [Google Omaha Tutorial](https://omaha-consulting.com/google-omaha-tutorial)
 4. [Omaha Server](https://github.com/Crystalnix/omaha-server)
 5. [週報紀錄](https://drive.google.com/open?id=1SrwuGiMQElQU0C4PwHTg_05yCb7neqB_)
