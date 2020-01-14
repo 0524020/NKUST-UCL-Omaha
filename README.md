@@ -15,17 +15,6 @@ There is also an unofficial [tutorial](https://fman.io/blog/google-omaha-tutoria
 # UCLab Omaha 說明文件
 注意 : 此版本僅用於NKUST UCL，Source Code中含有連接至 NKUST-UCL Omaha Server的金鑰憑證，請勿外傳。
 
-#### UCL Omaha Server <br>
-> $ ssh muko@163.18.26.210<br>
-> password : C217_muko
-
-#### 完整Omaha Client
-> 電腦名稱: UCL-EAP11 <br>
-> IP: 163.18.26.130:11000<br>
-> password: c217C@!&
-
-
-
 ### 參考網站
 經測試，通常不同電腦、不同位元去建置Omaha Client所遇上的問題不盡相同，故先將所有具參考價值的網站列出:
 <br>
