@@ -2,7 +2,7 @@
 
 :: Hammer does not need this variable but the unit
 :: tests do.
-set OMAHA_PSEXEC_DIR=%ProgramFiles(x86)%\pstools
+set OMAHA_PSEXEC_DIR=C:\pstools
 
 setlocal
 
@@ -46,10 +46,10 @@ goto set_env_variables
 :: Change these variables to match the local build environment.
 
 :: Directory where the Go programming language toolchain is installed.
-set GOROOT=C:\go
+set GOROOT=C:\Go
 
 :: Directory where AtlServer files are.
-set OMAHA_ATL_SERVER_DIR=c:\atl_server\files
+set OMAHA_ATL_SERVER_DIR=C:\atl
 
 :: This will depend on your OS. If this version of the .Net framework came with
 :: the OS, then set it to the framework directory
@@ -63,7 +63,7 @@ set OMAHA_NET_DIR=%WINDIR%\Microsoft.NET\Framework\v2.0.50727
 :: framework. If there is a need for the click-once application to run on older
 :: versions of the .Net framework, then an older version of the Windows SDK
 :: needs to be installed and this environment variable point to that directory.
-set OMAHA_NETFX_TOOLS_DIR=%WindowsSDK_ExecutablePath_x86%
+set OMAHA_NETFX_TOOLS_DIR=%ProgramFiles(x86)%\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
 
 :: This directory is needed to find protoc.exe, which is the protocol buffer
 :: compiler. From the release page https://github.com/google/protobuf/releases,
@@ -81,10 +81,10 @@ set OMAHA_PROTOBUF_SRC_DIR=C:\protobuf\src
 set OMAHA_PYTHON_DIR=C:\Python27
 
 :: Directory in WiX where candle.exe and light.exe are installed.
-set OMAHA_WIX_DIR=%WIX%\bin
+set OMAHA_WIX_DIR=%ProgramFiles(x86)%\WiX Toolset v3.11\bin
 
 :: Root directory of the WTL installation.
-set OMAHA_WTL_DIR=C:\wtl\files
+set OMAHA_WTL_DIR=C:\wtl
 
 set OMAHA_PLATFORM_SDK_DIR=%WindowsSdkDir%\
 set OMAHA_WINDOWS_SDK_10_0_VERSION=%WindowsSDKVersion:~0,-1%
